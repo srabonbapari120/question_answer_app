@@ -66,6 +66,10 @@ class CreatePostScreenController extends GetxController{
           backgroundColor: Colors.green.withOpacity(0.1),
         );
       },
+    ).onError((error, stackTrace) {
+        loading.value=false;
+        Get.snackbar("Error", error.toString(), colorText: Colors.green, snackPosition: SnackPosition.BOTTOM,
+        );
     ).onError(
           (error, stackTrace) {
         loading.value=false;

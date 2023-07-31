@@ -37,11 +37,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^2.15.0
   cloud_firestore: ^4.8.3
+  firebase_auth: ^4.7.2
   readmore: ^2.2.0
   get: ^4.6.5
   clay_containers: ^0.3.2
   custom_refresh_indicator: ^2.2.1
   rive: ^0.11.8
+  shared_preferences: ^2.2.0
+  persistent_bottom_nav_bar: ^5.0.2
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +72,7 @@ flutter:
   #1738-3431-raster-graphics-example.riv
   assets:
     - assets/anim/
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
